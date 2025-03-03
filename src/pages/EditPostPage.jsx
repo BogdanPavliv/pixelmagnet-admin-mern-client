@@ -65,7 +65,7 @@ export const EditPostPage = () => {
             <div className='flex object-cover py-2'>
                 {oldImage && (
                     <img
-                        src={`http://localhost:3002/${oldImage}`}
+                        src={`https://pixelmagnet-admin-mern-server.netlify.app/${oldImage}`}
                         alt={oldImage.name}
                     />
                 )}

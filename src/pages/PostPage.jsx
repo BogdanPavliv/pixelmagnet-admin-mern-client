@@ -100,7 +100,7 @@ export const PostPage = () => {
                         >
                             {post?.imgUrl && (
                                 <img
-                                    src={`http://localhost:3002/${post.imgUrl}`}
+                                    src={`https://pixelmagnet-admin-mern-server.netlify.app/${post.imgUrl}`}
                                     alt='img'
                                     className='object-cover w-full'
                                 />

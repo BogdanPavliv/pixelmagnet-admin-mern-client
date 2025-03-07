@@ -76,7 +76,7 @@ export const PostPage = () => {
     if (!post) {
         return (
             <div className='text-xl text-center text-white py-10'>
-                Загрузка...
+                Завантаження...
             </div>
         )
     }

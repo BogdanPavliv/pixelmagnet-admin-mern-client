@@ -21,7 +21,7 @@ export const PostItem = ({ post }) => {
                 >
                     {post.imgUrl && (
                         <img
-                            src={`https://pixelmagnet-admin-mern-server.netlify.app/${post.imgUrl}`}
+                            src={`https://pixelmagnet-admin-mern-server.onrender.com/${post.imgUrl}`}
                             alt='img'
                             className='object-cover w-full'
                         />

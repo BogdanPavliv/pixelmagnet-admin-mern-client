@@ -34,7 +34,7 @@ export const PostPage = () => {
     const removePostHandler = () => {
         try {
             dispatch(removePost(params.id))
-            toast('Пост был удален')
+            toast('Пост був видалений')
             navigate('/posts')
         } catch (error) {
             console.log(error)

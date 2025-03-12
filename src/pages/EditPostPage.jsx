@@ -103,14 +103,14 @@ export const EditPostPage = () => {
                     onClick={submitHandler}
                     className='flex justify-center items-center bg-gray-600 text-xs text-white rounded-sm py-2 px-4'
                 >
-                    Обновить
+                    Оновити
                 </button>
 
                 <button
                     onClick={clearFormHandler}
                     className='flex justify-center items-center bg-red-500 text-xs text-white rounded-sm py-2 px-4'
                 >
-                    Отменить
+                    Скасувати
                 </button>
             </div>
         </form>

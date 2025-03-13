@@ -6,7 +6,7 @@ const initialState = {
     popularPosts: [],
     loading: false,
 }
-
+// init
 export const createPost = createAsyncThunk(
     'post/createPost',
     async (params) => {
